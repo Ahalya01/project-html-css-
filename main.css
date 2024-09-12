@@ -296,7 +296,20 @@ WHATWEDO (START)
     background-color: #38B; 
     outline: none;
   }
-  @media screen and (min-width:410px) and (max-width:790px){
+  @media screen and (min-width:790px) and (max-width:1400px){
+    .intro-text-container {
+        padding: 6px;   
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .intro-text {
+        font-size: 1.5rem;
+    }
+}
+  @media screen and (min-width:601px) and (max-width:790px){
     .intro-text-container {
         padding: 5px;
     }
@@ -311,7 +324,7 @@ WHATWEDO (START)
 }
 
 /* Display row as block at 600px width or less */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .row {
         display: block; /* Force block display for row */
     }
